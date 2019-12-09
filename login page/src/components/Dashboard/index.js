@@ -34,6 +34,12 @@ const styles = theme => ({
 })
 
 function Dashboard(props) {
+	
+	const [quote, setQuote] = useState('')
+
+	useEffect(() => {
+		firebase.getCurrentUserQuote().then(setQuote)
+	})
 	const { classes } = props
 
 	if(!firebase.getCurrentUsername()) {
@@ -43,11 +49,7 @@ function Dashboard(props) {
 		return null
 	}
 
-	const [quote, setQuote] = useState('')
-
-	useEffect(() => {
-		firebase.getCurrentUserQuote().then(setQuote)
-	})
+	
 
 	return (
 		<main className={classes.main}>
