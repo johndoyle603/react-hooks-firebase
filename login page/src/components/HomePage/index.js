@@ -50,7 +50,7 @@ function HomePage(props) {
 					className={classes.submit}>
 					Register
           		</Button>
-				<Button id="btn2"
+				<Button id="btn1"
 					type="submit"
 					fullWidth
 					variant="contained"
@@ -60,7 +60,7 @@ function HomePage(props) {
 					className={classes.submit}>
 					Login
           		</Button>
-				<Button id="btn3"
+				<Button id="btn1"
 					type="submit"
 					fullWidth
 					variant="contained"
