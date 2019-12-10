@@ -5,7 +5,7 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined'
 import withStyles from '@material-ui/core/styles/withStyles'
 import { Link, withRouter } from 'react-router-dom'
 import firebase from '../firebase'
-import Logo from '../assets'
+
 
 
 const styles = theme => ({
@@ -32,7 +32,7 @@ const styles = theme => ({
 		backgroundColor: theme.palette.secondary.main,
 	},
 	form: {
-		width: '100%', // Fix IE 11 issue.
+		width: '100%', 
 		marginTop: theme.spacing.unit,
 	},
 	submit: {
@@ -49,7 +49,7 @@ function SignIn(props) {
 	return (
 		<main className={classes.main}>
 			<Paper className={classes.paper}>
-				<img src="Logo"/>
+				<img src="smallLogo.png" id="logo"/>
 				<Typography component="h1" variant="h5">
 					Please log in
        			</Typography>

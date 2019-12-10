@@ -5,11 +5,12 @@
 
   #logo {
     vertical-align: middle;
-    width: 50px;
+    width: 60px;
     height: 50px;
-    border-radius: 50%;
+    margin-bottom: 15px;
   }
 
   #brand {
+      height: 100vh;
       background: silver;
   }

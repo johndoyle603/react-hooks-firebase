@@ -44,7 +44,7 @@ function Register(props) {
 	return (
 		<main className={classes.main}>
 			<Paper className={classes.paper}>
-				<img src="logo.png" id="logo"/>
+				<img src="smallLogo.png" id="logo"/>
 				<Typography component="h1" variant="h5">
 					Register Account
        			</Typography>
